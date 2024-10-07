@@ -1,5 +1,6 @@
 package dev.joshiy13;
 
+import dev.joshiy13.block.ModBlocks;
 import dev.joshiy13.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,7 @@ public class MoreFruits implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
+
 }
