@@ -16,6 +16,7 @@ public class ModItems {
     //Berries
     public static final Item BLUEBERRY = registerItem("blueberry", new Item(new Item.Settings().food(ModFoodComponents.BLUEBERRY)));
     public static final Item BLACKBERRY = registerItem("blackberry", new Item(new Item.Settings().food(ModFoodComponents.BLACKBERRY)));
+    public static final Item CHERRY = registerItem("cherry", new Item(new Item.Settings().food(ModFoodComponents.CHERRY)));
 
     public static final Item SWEET_BERRY_JUICE = registerItem("sweet_berry_juice", new Item(new Item.Settings().food(ModFoodComponents.SWEET_BERRY_JUICE)));
 
@@ -33,6 +34,7 @@ public class ModItems {
             //Berries
             entries.add(BLUEBERRY);
             entries.add(BLACKBERRY);
+            entries.add(CHERRY);
 
             entries.add(SWEET_BERRY_JUICE);
         });
