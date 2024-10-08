@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item CHERRY = registerItem("cherry", new Item(new Item.Settings().food(ModFoodComponents.CHERRY)));
 
     public static final Item SWEET_BERRY_JUICE = registerItem("sweet_berry_juice", new Item(new Item.Settings().food(ModFoodComponents.SWEET_BERRY_JUICE)));
+    public static final Item BLUE_BERRY_JUICE = registerItem("blue_berry_juice", new Item(new Item.Settings().food(ModFoodComponents.BLUE_BERRY_JUICE)));
 
 
     private static Item registerItem(String name, Item item) {
@@ -37,6 +38,7 @@ public class ModItems {
             entries.add(CHERRY);
 
             entries.add(SWEET_BERRY_JUICE);
+            entries.add(BLUE_BERRY_JUICE);
         });
     }
 }
