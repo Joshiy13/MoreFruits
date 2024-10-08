@@ -14,7 +14,7 @@ public class ModItems {
     //Fruits
     public static final Item BANANA = registerItem("banana", new Item(new Item.Settings().food(ModFoodComponents.BANANA)));
     //Berries
-
+    public static final Item BLUEBERRY = registerItem("blueberry", new Item(new Item.Settings().food(ModFoodComponents.BLUEBERRY)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MoreFruits.MOD_ID, name), item);
@@ -26,6 +26,8 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             //Fruits
             entries.add(BANANA);
+            //Berries
+            entries.add(BLUEBERRY);
         });
     }
 }
