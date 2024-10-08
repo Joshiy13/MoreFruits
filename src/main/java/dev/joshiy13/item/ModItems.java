@@ -15,6 +15,10 @@ public class ModItems {
     public static final Item BANANA = registerItem("banana", new Item(new Item.Settings().food(ModFoodComponents.BANANA)));
     //Berries
     public static final Item BLUEBERRY = registerItem("blueberry", new Item(new Item.Settings().food(ModFoodComponents.BLUEBERRY)));
+    public static final Item BLACKBERRY = registerItem("blackberry", new Item(new Item.Settings().food(ModFoodComponents.BLACKBERRY)));
+
+    public static final Item SWEET_BERRY_JUICE = registerItem("sweet_berry_juice", new Item(new Item.Settings().food(ModFoodComponents.SWEET_BERRY_JUICE)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MoreFruits.MOD_ID, name), item);
@@ -28,6 +32,9 @@ public class ModItems {
             entries.add(BANANA);
             //Berries
             entries.add(BLUEBERRY);
+            entries.add(BLACKBERRY);
+
+            entries.add(SWEET_BERRY_JUICE);
         });
     }
 }
