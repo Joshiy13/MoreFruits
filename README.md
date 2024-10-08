@@ -5,3 +5,8 @@ Fruits:
 
 Berries:
 - Blueberry
+- Blackberry
+- Cherry
+
+Juices:
+- Sweet Berry Juice
