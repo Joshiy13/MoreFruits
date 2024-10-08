@@ -16,5 +16,4 @@ public class MoreFruits implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
-
 }
