@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/user/Joshiy13",
 		"sources": "https://github.com/Joshiy13/MoreFruits"
 	},
-	"license": "CC0-1.0",
+	"license": "ARR",
 	"icon": "assets/morefruits/icon.png",
 	"environment": "*",
 	"entrypoints": {
