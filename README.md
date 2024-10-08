@@ -10,3 +10,4 @@ Berries:
 
 Juices:
 - Sweet Berry Juice
+- Blue Berry Juice
