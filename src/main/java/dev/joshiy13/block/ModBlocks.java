@@ -1,8 +1,8 @@
 package dev.joshiy13.block;
 
 import dev.joshiy13.MoreFruits;
-import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.CrafterBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block JUICE_PRESSER_BLOCK = registerBlock("juice_presser_block",
-            new Block(AbstractFurnaceBlock.Settings.create()
+    public static final Block EXAMPLE_BLOCK = registerBlock("example_block",
+            new Block(CrafterBlock.Settings.create()
                     .requiresTool().strength(2.5f)
                     .sounds(BlockSoundGroup.WOOD)));
 
