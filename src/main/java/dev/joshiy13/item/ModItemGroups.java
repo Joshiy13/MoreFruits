@@ -28,6 +28,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BLACKBERRY);
                         entries.add(ModItems.CHERRY);
                         entries.add(ModItems.BLUEBERRY);
+                        entries.add(ModItems.STRAWBERRY);
                     }).build());
 
     public static final ItemGroup MORE_FRUITS_BERRIES_OTHER = Registry.register(Registries.ITEM_GROUP,

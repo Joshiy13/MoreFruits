@@ -10,7 +10,7 @@ public class ModFoodComponents {
         public static final FoodComponent BLUEBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
         public static final FoodComponent BLACKBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
         public static final FoodComponent CHERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
-
+        public static final FoodComponent STRAWBERRY = new FoodComponent.Builder().nutrition(2).saturationModifier(0.25f).build();
         //Juices
 
         public static final FoodComponent SWEET_BERRY_JUICE = new FoodComponent.Builder().nutrition(5).saturationModifier(0.25f).build();
