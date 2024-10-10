@@ -7,6 +7,7 @@ Berries:
 - Blueberry
 - Blackberry
 - Cherry
+- Strawberry
 
 Juices:
 - Sweet Berry Juice
